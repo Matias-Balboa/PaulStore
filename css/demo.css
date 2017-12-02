@@ -1152,3 +1152,16 @@
 #logonav{
     width: 10%;
 }
+.menu-catalogo{
+    cursor:pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu-catalogo:hover{
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid violet;
+}
+.nav-catalogo{
+    box-shadow: 100000px 100px 100px 100px grey;
+}
