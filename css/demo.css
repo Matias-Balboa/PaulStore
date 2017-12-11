@@ -34,6 +34,12 @@
 .tim-row{
     padding-top: 50px;
 }
+.fondo{
+    background-image: url("../img/cata/fondos.jpg");
+    height: 85vh;
+    background-position-x:center;
+    background-attachment: fixed; 
+}
 .tim-row h3{
     margin-top: 0;
 }
@@ -1164,7 +1170,7 @@
     color: black;
 }
 .slide {
-    background-image: url(../img/4.jpg);
+    background-image: url(../img/cata/fondos.jpg);
     height: 600px;
     background-repeat: no-repeat;
     background-position: center;
