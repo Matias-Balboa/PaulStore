@@ -2085,7 +2085,6 @@ textarea.form-control {
 [class*="bg"] .navbar-nav .active .nav-link:focus,
 [class*="bg"] .navbar-nav .nav-item .nav-link:hover,
 [class*="bg"] .navbar-nav .nav-item .nav-link:focus {
-  background-color: #000000;
   color: #FFFFFF;
   opacity: 1;
   filter: alpha(opacity=100);

@@ -35,10 +35,9 @@
     padding-top: 50px;
 }
 .fondo{
-    background-image: url("../img/cata/fondos.jpg");
-    height: 85vh;
+    background-image: url("../img/cata/fondo-c.JPG");
     background-position-x:center;
-    background-attachment: fixed; 
+    height: 130vh;
 }
 .tim-row h3{
     margin-top: 0;
