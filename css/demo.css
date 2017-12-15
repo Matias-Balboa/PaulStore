@@ -37,7 +37,8 @@
 .fondo{
     background-image: url("../img/cata/fondo-c.JPG");
     background-position-x:center;
-    height: 130vh;
+    height: 650px;
+    background-repeat: no-repeat;
 }
 .tim-row h3{
     margin-top: 0;
@@ -196,7 +197,7 @@
     background-position: center center;
 }
 
-.logo-container .logo{
+.logo-container{
     overflow: hidden;
     border-radius: 50%;
     border: 1px solid #333333;
@@ -217,7 +218,7 @@
 .logo-container{
     margin-top: 5px;
 }
-.logo-container .logo img{
+.logo-container img{
     width: 100%;
 }
 .navbar-small .logo-container .brand{
@@ -334,7 +335,7 @@
 /*       Loading dots  */
 
 /*      transitions */
-.presentation .front, .presentation .front:after, .presentation .front .btn, .logo-container .logo, .logo-container .brand{
+.presentation .front, .presentation .front:after, .presentation .front .btn, .logo-container, .logo-container .brand{
      -webkit-transition: all .2s;
     -moz-transition: all .2s;
     -o-transition: all .2s;
@@ -1145,10 +1146,6 @@
     position: relative;
     z-index: 2;
 }
-.logo1{
-    width: 50%;
-    height: 50%;
-}
 .productos{
 
     width: 100%;
@@ -1180,6 +1177,4 @@
 .se{
     font-size: 12px!important;
     text-align: center!important;
-}
-
 }
